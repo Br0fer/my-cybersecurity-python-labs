@@ -210,5 +210,217 @@
                 ]
             ]
         }
+    },
+    {
+        "event": "login",
+        "username": "devsecops_lead",
+        "result": "success",
+        "timestamp": "2026-09-18T10:42:22",
+        "args": [],
+        "kwargs": {
+            "username": "devsecops_lead",
+            "password": "SecurePass2026!",
+            "users_db": [
+                [
+                    "devsecops_lead",
+                    "3acb72fe61bad91a6396d07376075577"
+                ],
+                [
+                    "security_engineer",
+                    "8b4367945680337e4fc6636d35c61acb"
+                ],
+                [
+                    "automation_tech",
+                    "52641efe0bf240a377234e797ce8ef72"
+                ],
+                [
+                    "api_developer",
+                    "62edf705eb8261a57913759a38cf5e19"
+                ],
+                [
+                    "soc_analyst",
+                    "e7eb179630a7f261c1b72d9a62d192f3"
+                ],
+                [
+                    "incident_handler",
+                    "6abf2ae5a9cf5d8b3579ddef35ed5708"
+                ],
+                [
+                    "log_auditor",
+                    "4056505dff93c59e0bc18e100c50cdc1"
+                ],
+                [
+                    "cloud_architect",
+                    "3c8dac5fb368ec6c8701caf0ddfff0da"
+                ],
+                [
+                    "pentester_red",
+                    "93b00ee2cc0d12527ac84f270bdcb24e"
+                ],
+                [
+                    "network_guard",
+                    "0c467c52e88cd4a6cc2495da8f516f70"
+                ]
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "username": "api_developer",
+        "result": "failure",
+        "timestamp": "2026-09-18T10:42:22",
+        "args": [],
+        "kwargs": {
+            "username": "api_developer",
+            "password": "WrongPassword123",
+            "users_db": [
+                [
+                    "devsecops_lead",
+                    "3acb72fe61bad91a6396d07376075577"
+                ],
+                [
+                    "security_engineer",
+                    "8b4367945680337e4fc6636d35c61acb"
+                ],
+                [
+                    "automation_tech",
+                    "52641efe0bf240a377234e797ce8ef72"
+                ],
+                [
+                    "api_developer",
+                    "62edf705eb8261a57913759a38cf5e19"
+                ],
+                [
+                    "soc_analyst",
+                    "e7eb179630a7f261c1b72d9a62d192f3"
+                ],
+                [
+                    "incident_handler",
+                    "6abf2ae5a9cf5d8b3579ddef35ed5708"
+                ],
+                [
+                    "log_auditor",
+                    "4056505dff93c59e0bc18e100c50cdc1"
+                ],
+                [
+                    "cloud_architect",
+                    "3c8dac5fb368ec6c8701caf0ddfff0da"
+                ],
+                [
+                    "pentester_red",
+                    "93b00ee2cc0d12527ac84f270bdcb24e"
+                ],
+                [
+                    "network_guard",
+                    "0c467c52e88cd4a6cc2495da8f516f70"
+                ]
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "username": "soc_analyst",
+        "result": "failure",
+        "timestamp": "2026-09-18T10:42:22",
+        "args": [],
+        "kwargs": {
+            "username": "soc_analyst",
+            "password": "123",
+            "users_db": [
+                [
+                    "devsecops_lead",
+                    "3acb72fe61bad91a6396d07376075577"
+                ],
+                [
+                    "security_engineer",
+                    "8b4367945680337e4fc6636d35c61acb"
+                ],
+                [
+                    "automation_tech",
+                    "52641efe0bf240a377234e797ce8ef72"
+                ],
+                [
+                    "api_developer",
+                    "62edf705eb8261a57913759a38cf5e19"
+                ],
+                [
+                    "soc_analyst",
+                    "e7eb179630a7f261c1b72d9a62d192f3"
+                ],
+                [
+                    "incident_handler",
+                    "6abf2ae5a9cf5d8b3579ddef35ed5708"
+                ],
+                [
+                    "log_auditor",
+                    "4056505dff93c59e0bc18e100c50cdc1"
+                ],
+                [
+                    "cloud_architect",
+                    "3c8dac5fb368ec6c8701caf0ddfff0da"
+                ],
+                [
+                    "pentester_red",
+                    "93b00ee2cc0d12527ac84f270bdcb24e"
+                ],
+                [
+                    "network_guard",
+                    "0c467c52e88cd4a6cc2495da8f516f70"
+                ]
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "username": null,
+        "result": "failure",
+        "timestamp": "2026-09-18T10:42:22",
+        "args": [],
+        "kwargs": {
+            "username": "",
+            "password": "",
+            "users_db": [
+                [
+                    "devsecops_lead",
+                    "3acb72fe61bad91a6396d07376075577"
+                ],
+                [
+                    "security_engineer",
+                    "8b4367945680337e4fc6636d35c61acb"
+                ],
+                [
+                    "automation_tech",
+                    "52641efe0bf240a377234e797ce8ef72"
+                ],
+                [
+                    "api_developer",
+                    "62edf705eb8261a57913759a38cf5e19"
+                ],
+                [
+                    "soc_analyst",
+                    "e7eb179630a7f261c1b72d9a62d192f3"
+                ],
+                [
+                    "incident_handler",
+                    "6abf2ae5a9cf5d8b3579ddef35ed5708"
+                ],
+                [
+                    "log_auditor",
+                    "4056505dff93c59e0bc18e100c50cdc1"
+                ],
+                [
+                    "cloud_architect",
+                    "3c8dac5fb368ec6c8701caf0ddfff0da"
+                ],
+                [
+                    "pentester_red",
+                    "93b00ee2cc0d12527ac84f270bdcb24e"
+                ],
+                [
+                    "network_guard",
+                    "0c467c52e88cd4a6cc2495da8f516f70"
+                ]
+            ]
+        }
     }
 ]

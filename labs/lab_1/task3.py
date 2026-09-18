@@ -1,7 +1,6 @@
 import csv
 import sys
 
-import functools
 import hashlib
 import json
 import os
@@ -37,7 +36,6 @@ def generate_hash(password: str, salt: str = "00000") -> str:
 
 
 def log_event(func):
-    @functools.wraps(func)
     def wrapper(*args, **kwargs):
         username = kwargs.get("username") or (args[0] if len(args) > 0 else None)
         status = "failure"

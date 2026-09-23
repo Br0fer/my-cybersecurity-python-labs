@@ -82,6 +82,8 @@ def evaluate_password(pwd: str, crit: dict, forbidden: set) -> str:
     if (has_digit or has_upper or has_special or has_lower):
         return "Слабкий"
 
+    return "Слабкий"
+
 
 # Крок 5: Головна функція запуску з формуванням структурованої таблиці результатів
 def main():

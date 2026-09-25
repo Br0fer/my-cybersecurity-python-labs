@@ -38,7 +38,7 @@ def generate_hash(password: str, salt: str = "00000") -> str:
             f"Пароль повинен бути не менше {MIN_PASSWORD_LENGTH} символів"
         )
 
-    # Конкатенація пароля та солі
+    # З'єднання пароля та солі
     combined = password + salt
 
     # Генерація шістнадцяткового значення MD5-хешу
@@ -96,6 +96,8 @@ def log_event(func):
 
 # Крок 3.1: Функція створення кортежу облікового запису (логін, хеш_пароля) з персональною сіллю
 def create_user(username: str, password: str) -> tuple:
+    if not username or not password:
+        raise ValueError
     hash_value = generate_hash(password, salt=SALT)
     return (username, hash_value)
 
@@ -151,6 +153,7 @@ def main():
         ("cloud_architect", "CloudFortress#9"),
         ("pentester_red", "ExploitPayload7"),
         ("network_guard", "FirewallRuleSet5"),
+        ("", "AuditCompliance4")
     )
 
     # Крок 7: Комплексна обробка винятків під час роботи з файлами та автентифікації

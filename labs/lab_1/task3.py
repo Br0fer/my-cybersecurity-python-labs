@@ -1,10 +1,10 @@
 # Імпорт стандартних бібліотек для роботи з CSV, системними шляхами, хешуванням, JSON та часом
 import csv
-import sys
 import hashlib
 import json
 import os
-from datetime import datetime
+import sys
+from datetime import datetime, timezone
 
 # Динамічне додавання кореневої директорії проєкту до sys.path для коректного імпорту спільних модулів
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
@@ -67,7 +67,7 @@ def log_event(func):
                 "event": "login",
                 "username": username,
                 "result": status,
-                "timestamp": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+                "timestamp": datetime.now(tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%S"),
                 "args": list(args),
                 "kwargs": kwargs,
             }

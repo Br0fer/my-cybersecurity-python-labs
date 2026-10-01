@@ -219,3 +219,4 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 labs/lab_1/data/
+labs/lab_2/data/

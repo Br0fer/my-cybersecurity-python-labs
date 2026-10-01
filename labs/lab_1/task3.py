@@ -67,7 +67,9 @@ def log_event(func):
                 "event": "login",
                 "username": username,
                 "result": status,
-                "timestamp": datetime.now(tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%S"),
+                "timestamp": datetime.now(tz=timezone.utc).strftime(
+                    "%Y-%m-%dT%H:%M:%S"
+                ),
                 "args": list(args),
                 "kwargs": kwargs,
             }
@@ -153,7 +155,7 @@ def main():
         ("cloud_architect", "CloudFortress#9"),
         ("pentester_red", "ExploitPayload7"),
         ("network_guard", "FirewallRuleSet5"),
-        ("", "AuditCompliance4")
+        ("", "AuditCompliance4"),
     )
 
     # Крок 7: Комплексна обробка винятків під час роботи з файлами та автентифікації

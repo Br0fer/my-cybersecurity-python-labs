@@ -23,7 +23,7 @@ passwords = [
     "Log@An4lysis",
     "watcher",
     "123456789",
-    "Fdse23567"
+    "Fdse23567",
 ]
 
 # Крок 2: Словник обов'язкових критеріїв безпеки для варіанта
@@ -81,7 +81,7 @@ def evaluate_password(pwd: str, crit: dict, forbidden: set) -> str:
         return "Середній"
 
     # 2. Слабкий: пароль не заборонений, але задовольняє мінімальну кількість умов
-    if (has_digit or has_upper or has_special or has_lower):
+    if has_digit or has_upper or has_special or has_lower:
         return "Слабкий"
 
     return "Слабкий"
@@ -89,7 +89,9 @@ def evaluate_password(pwd: str, crit: dict, forbidden: set) -> str:
 
 # Крок 5: Головна функція запуску з формуванням структурованої таблиці результатів
 def main():
-    print(f"Студент: {STUDENT_NAME} | Варіант: {VARIANT_NUMBER} | Група: {GROUP_NAME}\n")
+    print(
+        f"Студент: {STUDENT_NAME} | Варіант: {VARIANT_NUMBER} | Група: {GROUP_NAME}\n"
+    )
     print("№ | Пароль | Довжина | Статус")
 
     # Ітерація списком паролів з нумерацією рядків за допомогою enumerate
